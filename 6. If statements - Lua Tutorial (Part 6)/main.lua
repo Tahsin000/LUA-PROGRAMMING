@@ -36,6 +36,16 @@ if name == "tom" and age < 22 then
 end
 
 
+-- ________ if else ( else if or else ) __________
+if name == "tom" then
+    print("You may Enter");
+elseif age < 22 then
+    print("ypu are not old or young")
+else
+    print("Ypu are young");
+end
+
+
 
 
 
