@@ -18,6 +18,6 @@ end
 local routine_2 = coroutine.create(routine_func)
 
 coroutine.resume(routine_1)
-print(coroutine.resume (routine_1))
+print(coroutine.resume (routine_2))
 coroutine.resume (routine_1)
 print(coroutine.status(routine_1))
